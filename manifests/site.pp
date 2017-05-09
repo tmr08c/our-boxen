@@ -1,5 +1,6 @@
 require boxen::environment
 require homebrew
+require brewcask
 require gcc
 
 Exec {
@@ -64,22 +65,26 @@ node default {
   }
 
   # node versions
-  nodejs::version { '0.8': }
-  nodejs::version { '0.10': }
-  nodejs::version { '0.12': }
+  nodejs::version { '6.9.1': }
 
   # default ruby versions
   ruby::version { '1.9.3': }
   ruby::version { '2.0.0': }
   ruby::version { '2.1.8': }
   ruby::version { '2.2.4': }
+  ruby::version { '2.3.1': }
 
   # common, useful packages
   package {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+
+      # GUI Application from brewcask
+      'google-chrome': provider => 'brewcask',
+      'firefox': provider=>'brewcask',
+      'slack': provider => 'brewcask'
     ]:
   }
 
