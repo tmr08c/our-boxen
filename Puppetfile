@@ -62,6 +62,6 @@ github "xquartz",     "1.2.1"
 # https://github.com/boxen.
 # github "elasticsearch", "2.8.0"
 # github "mysql",         "2.0.1"
-# github "postgresql",  "4.0.1"
-# github "redis",       "3.1.0"
+github "postgresql",  "4.0.1"
+github "redis",       "3.1.0"
 # github "sysctl",      "1.0.1"
