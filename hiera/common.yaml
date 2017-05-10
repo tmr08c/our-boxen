@@ -1,2 +1,6 @@
 # Ruby Config
 "ruby::build::ensure": "v20170405"
+
+# Node Config
+"nodejs::build::ensure": "b81a84746568cd1276c3562f1de0375454a2ee6a"
+
