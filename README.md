@@ -2,6 +2,14 @@
 
 This is a fork of [boxen](https://github.com/boxen/our-boxen). Check out their [README](https://github.com/boxen/our-boxen/blob/master/README.md) for the most up-to-date Boxen information.
 
+## What's Inculded?
+
+* [homebrew](https://brew.sh/)
+* [homebrew casks](https://caskroom.github.io/)
+* [rbenv](https://github.com/rbenv/rbenv)
+* [nodenv](https://github.com/ekalinin/nodeenv)
+* Clone [ROI Projects](https://github.com/roirevolution/) into `~/src`
+
 ## Getting Started
 
 ### Warnings
