@@ -46,6 +46,10 @@ cd /opt/boxen/repo
 ./script/boxen --no-fde
 ```
 
+Potential Issues
+
+* It is matching a different Github username run again with `BOXEN_GITHUB_USERNAME=<your username>` 
+
 It should run successfully, and should tell you to source a shell script
 in your environment.
 For users without a bash or zsh config or a `~/.profile` file,
