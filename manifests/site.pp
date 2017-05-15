@@ -80,11 +80,6 @@ node default {
       'ack',
       'findutils',
       'gnu-tar',
-
-      # GUI Application from brewcask
-      'google-chrome': provider => 'brewcask',
-      'firefox': provider=>'brewcask',
-      'slack': provider => 'brewcask'
     ]:
   }
 
