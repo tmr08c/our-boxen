@@ -34,7 +34,7 @@ and detect most of these and tell you anyway):
 #### Xcode
 
 1. Install Xcode from the Mac App Store using the `dev@roirevolution.com` Apple ID
-1. Install the Command Line Tools `xcode-select --install`
+1. Install the Command Line Tools. In the terminal run `xcode-select --install`
 
 ### Installing
 
