@@ -41,7 +41,7 @@ and detect most of these and tell you anyway):
 ```
 sudo mkdir -p /opt/boxen
 sudo chown ${USER}:staff /opt/boxen
-git clone <location of my new git repository> /opt/boxen/repo
+git clone https://github.com/tmr08c/our-boxen.git /opt/boxen/repo
 cd /opt/boxen/repo
 ./script/boxen --no-fde
 ```
