@@ -48,7 +48,7 @@ cd /opt/boxen/repo
 
 Potential Issues
 
-* It is matching a different Github username run again with `BOXEN_GITHUB_USERNAME=<your username>` 
+* It is matching a different Github username run again with `BOXEN_GITHUB_USERNAME=<your username>`
 
 It should run successfully, and should tell you to source a shell script
 in your environment.
@@ -81,6 +81,18 @@ will be working in).
 
 ## upgrading boxen
 See [FAQ-Upgrading](https://github.com/boxen/our-boxen/blob/master/docs/faq.md#q-how-do-you-upgrade-your-boxen-from-the-public-our-boxen).
+
+## Using homebrew
+
+To use homebrew you use the brew command
+
+For example:
+```
+brew install redis
+brew services start redis
+```
+
+Would install and start redis on your computer.
 
 ## Halp!
 
